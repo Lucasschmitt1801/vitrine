@@ -78,11 +78,11 @@ export default function ProdutoDetalhes() {
               <h1 className="text-4xl font-serif font-bold text-black uppercase mb-6 leading-tight tracking-tighter">{produto.nome}</h1>
               <div className="bg-[#fcfbf9] p-4 border-l-4 border-[#916749] mb-8">
                 <p className="text-3xl font-serif text-[#916749] font-bold italic">R$ {Number(produto.preco).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</p>
-                <p className="text-[9px] uppercase text-gray-400 mt-1 tracking-widest font-bold">Artigo de Luxo em Couro Legítimo</p>
+                <p className="text-[9px] uppercase text-gray-400 mt-1 tracking-widest font-bold"></p>
               </div>
               <div className="space-y-6">
                 <div className="flex items-center gap-2">
-                  <h3 className="text-xs font-bold uppercase tracking-widest text-black">Especificações Técnicas</h3>
+                  <h3 className="text-xs font-bold uppercase tracking-widest text-black">Descrição do produto</h3>
                   <div className="flex-1 h-[1px] bg-[#dfdbcc]"></div>
                 </div>
                 <p className="text-gray-600 leading-relaxed text-sm whitespace-pre-line font-medium italic">{produto.descricao}</p>
