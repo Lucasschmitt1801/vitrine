@@ -35,13 +35,25 @@ export default function LoginPage() {
 
           <form onSubmit={handleLogin} className="space-y-5">
             <div className="space-y-1">
-              <label className="text-[9px] font-bold uppercase text-[#ab8d6f] tracking-widest">E-mail de Acesso</label>
-              <input type="email" required className="w-full p-4 border border-[#dfdbcc] focus:outline-[#916749] bg-[#fcfbf9]" value={email} onChange={(e) => setEmail(e.target.value)} />
+              <label className="text-[9px] font-bold uppercase text-black tracking-widest">E-mail de Acesso</label>
+              <input 
+                type="email" 
+                required 
+                className="w-full p-4 border border-black text-black placeholder-gray-400 focus:outline-[#916749] bg-white font-medium" 
+                value={email} 
+                onChange={(e) => setEmail(e.target.value)} 
+              />
             </div>
             
             <div className="space-y-1">
-              <label className="text-[9px] font-bold uppercase text-[#ab8d6f] tracking-widest">Senha</label>
-              <input type="password" required className="w-full p-4 border border-[#dfdbcc] focus:outline-[#916749] bg-[#fcfbf9]" value={senha} onChange={(e) => setSenha(e.target.value)} />
+              <label className="text-[9px] font-bold uppercase text-black tracking-widest">Senha</label>
+              <input 
+                type="password" 
+                required 
+                className="w-full p-4 border border-black text-black placeholder-gray-400 focus:outline-[#916749] bg-white font-medium" 
+                value={senha} 
+                onChange={(e) => setSenha(e.target.value)} 
+              />
             </div>
 
             <button type="submit" disabled={loading} className="w-full bg-black text-white p-5 font-bold uppercase tracking-[0.3em] hover:bg-[#916749] transition-all shadow-lg flex justify-center">
