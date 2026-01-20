@@ -70,7 +70,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-2 md:gap-6">
             <div className="h-[0.5px] w-6 md:w-20 bg-white/40"></div>
             <p className="text-white uppercase tracking-[0.2em] md:tracking-[0.4em] text-[7px] md:text-xs font-black italic drop-shadow-md whitespace-nowrap">
-              Artigos em Couro Legítimo
+              Do campo para o seu estilo
             </p>
             <div className="h-[0.5px] w-6 md:w-20 bg-white/40"></div>
           </div>
